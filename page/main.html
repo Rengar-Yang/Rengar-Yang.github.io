@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/main_css.css">
+    <meta charset="UTF-8">
+    <title>杨振一第一次网络编程作业——个人信息收集系统</title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <p>
+        <div id="head">
+        <h1 style="margin-bottom:0px;">杨振一第一次网络网络编程作业——个人信息收集系统</h1>
+        </div>
+
+        <div style="background-color: cornflowerblue;color:black;text-align: center">
+        学号：04191315
+        </div>
+
+        <div id="menu">
+            <b>菜单</b><br>
+            个人信息填写<br>
+            信息查询<br>
+            信息修改</div>
+        </div>
+    <!--这是注释-->
+
+<!--        <div>-->
+<!--            <div id="form1">-->
+<!--                <ol>-->
+<!--                    <li>姓名</li>-->
+<!--                    <li>学号</li>-->
+<!--                    <li>班级</li>-->
+<!--                </ol>-->
+<!--                <ul>-->
+<!--                    <li>姓名</li>-->
+<!--                    <li>学号</li>-->
+<!--                    <li>班级</li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div id="form2">-->
+
+<!--            <table border="1">-->
+<!--                <tr bgcolor="red">-->
+<!--                    <th>表头1</th>-->
+<!--                    <th>表头2</th>-->
+<!--                </tr>-->
+<!--                <tr bgcolor="#00ffff">-->
+<!--                    <td>测试1</td>-->
+<!--                    <td>测试2</td>-->
+<!--                </tr>-->
+<!--                <tr bgcolor="#7fffd4">-->
+<!--                    <td>测试3</td>-->
+<!--                    <td>测试4</td>-->
+<!--                </tr>-->
+<!--            </table>-->
+<!--        </div>-->
+
+        <div id="information" text-align="center">
+            <br>
+            <form action="../php/server.php" method="post">
+                姓名: <input type="text" name="user">
+                学号: <input type="text" name="student_number">
+                密码: <input type="password" name="pwd"><br><br>
+                身份证号码: <input type="text" name="identification"><br><br>
+                选择: <select name="grade">
+                <option value="2019-1">电子信息19-1班</option>
+                <option value="2019-2">电子信息19-2班</option>
+                <option value="2019-3">电子信息19-3班</option>
+                <option value="2019-4">电子信息19-4班</option>
+                <option value="2019-5">电子信息19-5班</option>
+                <option value="2019-6">电子信息19-6班</option>
+            </select><br><br>
+                <input type="radio" name="sex" value="man">男
+                <input type="radio" name="sex" value="woman">女<br><br>
+                出生年月:<input type="date" name="birthday"><br><br>
+                证件照:<input type="file" name="photo"><br><br>
+                <input type="submit" value="提交信息">
+            </form>
+        </div>
+
+        <div align="center">
+            <a href="https://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&dyTabStr=MCwzLDIsNCw4LDEsNiw1LDcsOQ%3D%3D&word=%E6%B3%A1%E8%8A%99%E7%8C%AB">
+            <img src="../screen_shot/puff.jpg" alt="puff">
+            </a>
+        </div>
+
+        <div id="footer">
+        中国矿业大学
+        </div>
+    </p>
+<!--        <pre>-->
+<!--            杨-->
+<!--            振-->
+<!--            一-->
+<!--            第一次-->
+<!--            网络编程-->
+<!--            作业-->
+<!--            ok?-->
+<!--        </pre>-->
+</body>
+</html>

@@ -1,0 +1,28 @@
+#form1{
+    border: #ff0000 1px solid;
+    width:100px ;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+#information{
+    text-align:-moz-center;
+}
+
+#head{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+#menu{
+    background-color: sandybrown;
+    width: 100px;
+    height: 1000px;
+    float:left;
+}
+
+#footer{
+    background-color:cornflowerblue;
+    clear:both;
+    text-align:center;
+}
